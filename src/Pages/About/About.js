@@ -23,6 +23,12 @@ const About = () => {
           Twitter:{" "}
           <a href="https://twitter.com/SubratSirIndia">@SubratSirIndia</a>
         </p>
+        <p>
+          Advanced Version of This App:{" "}
+          <a href="https://my-entertainment-zone.web.app/">
+            my-entertainment-zone.web.app
+          </a>
+        </p>
       </Paper>
       <h2>Implemented Features</h2>
       <Paper style={{ padding: "5px 25px", margin: "5px" }}>
