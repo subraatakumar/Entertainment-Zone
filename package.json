@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "stylelint": "npx stylelint \"**/*.{css,scss}\" --fix"
+    "stylelint": "npx stylelint \"**/*.{css,scss}\""
   },
   "eslintConfig": {
     "extends": [
