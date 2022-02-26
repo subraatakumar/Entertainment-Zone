@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kaushan+Script&family=Lobster&family=Redressed&display=swap');
+
+:root {
+  --primary-color: #921122;
+  --primary-text-color: rgb(174, 222, 245);
+  --primary-color-dark: #620915;
+  --primary-color-darker: #350309;
+  --primary-color-light: #df1d37;
+  --primary-color-lighter: #fdc1c9;
+  --heading-font: 'Kaushan Script', cursive;
+  --paragraph-font: 'Kalam', cursive;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--paragraph-font);
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  max-height: 100vh;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.App {
+  width: 100%;
+  flex-grow: 1;
+
+  /* background-color: var(--primary-color-lighter); */
+  overflow-y: auto;
+}
+
+.pageTitle {
+  font-family: var(--heading-font);
+  text-align: center;
+  font-size: 1.5em;
+
+  /* color: var(--primary-color-dark); */
+}
+
+.trending {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(60px, 1fr));
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .trending {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(60px, 1fr));
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 820px) {
+  .trending {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(60px, 1fr));
+  }
+}
+
+/* All other then the above */
+@media (min-width: 821px)  and (max-width: 1180px) {
+  .trending {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(60px, 1fr));
+  }
+}
+
+/* All other then the above */
+@media (min-width: 1181px)  and (max-width: 9900px) {
+  .trending {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(60px, 1fr));
+  }
+}

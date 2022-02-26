@@ -1,0 +1,63 @@
+.header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr auto;
+}
+
+.header1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-color: var(--primary-color-dark); */
+}
+
+.header1 h1 {
+  /* margin-bottom: 0.5rem; */
+
+  /* margin-top: 0; */
+  font-family: var(--heading-font);
+  background-image: url("https://image.tmdb.org/t/p/w500//3cccEF9QZgV9bLWyupJO41HSrOV.jpg");
+  background-size: cover;
+  background-position-y: 30%;
+  -webkit-background-clip: text;
+
+  /* color: var(--primary-color-dark); */
+  animation: title 2s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes title {
+  0% {
+    color: transparent;
+    background-position-x: 0%;
+    background-position-y: 40%;
+    scale: 0.5;
+  }
+
+  40% {
+    color: transparent;
+    background-position-x: 50%;
+    background-position-y: 70%;
+    scale: 1;
+  }
+
+  80% {
+    color: transparent;
+    background-position-x: 40%;
+    scale: 0.5;
+  }
+
+  100% {
+    color: transparent;
+    background-position-x: 40%;
+    scale: 1;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .themeMenuText {
+    display: none;
+  }
+}

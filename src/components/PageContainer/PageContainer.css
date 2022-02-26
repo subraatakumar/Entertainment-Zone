@@ -1,0 +1,39 @@
+.pagination nav ul li button:hover {
+  /* background-color: var(--primary-color-dark);
+  color: var(--white); */
+  font-family: var(--paragraph-font);
+}
+
+.genrePageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.genrePageContainer div {
+  margin: 0 10px;
+}
+
+/* All other then the above */
+@media (min-width: 821px)  and (max-width: 1180px) {
+  .pagination nav ul li button {
+    font-size: 200% !important;
+    padding: 25px 10px !important;
+  }
+
+  .genrePageContainer {
+    padding: 10px 0;
+  }
+}
+
+/* All other then the above */
+@media (min-width: 1181px)  and (max-width: 9900px) {
+  .pagination nav ul li button {
+    font-size: 200% !important;
+    padding: 25px 10px !important;
+  }
+
+  .genrePageContainer {
+    padding: 10px 0;
+  }
+}
