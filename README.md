@@ -17,7 +17,8 @@ This App is created using [React](https://reactjs.org/) (A JavaScript library) a
 - [Prettier]
 - [style lint]
 
-## 🧰 [See it Live Here](https://my-entertainment-zone.web.app/)
+## 🧰 [See it Live Here](https://entertainment-zone-react-app.web.app/)
+## 🧰 [See An Advanced Version of it Live Here](https://my-entertainment-zone.web.app/)
 
 ## 👋 Author
 - [Subrat Sir](https://github.com/subratsir)
