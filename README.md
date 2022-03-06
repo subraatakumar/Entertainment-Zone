@@ -14,8 +14,8 @@ This App is created using [React](https://reactjs.org/) (A JavaScript library) a
 - [Material Icons](https://mui.com/components/material-icons/) : npm i @mui/icons-material
 - [React Router Dom](#) : npm i react-router-dom
 - [Axios](https://www.npmjs.com/package/axios) : npm i axios
-- [Prettier]
-- [style lint]
+- [Prettier](https://www.npmjs.com/package/prettier)
+- [style lint](#)
 
 ## 🧰 [See it Live Here](https://entertainment-zone-react-app.web.app/)
 ## 🧰 [See An Advanced Version of it Live Here](https://my-entertainment-zone.web.app/)
